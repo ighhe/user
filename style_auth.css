@@ -56,3 +56,13 @@ body {
 
 .button:hover {opacity: 1}
 
+#error {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#error_in {
+    display: flex;
+    justify-content: center;
+}
