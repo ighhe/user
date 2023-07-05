@@ -1,0 +1,202 @@
+body{
+    background-color: rgb(235, 242, 249);
+    position: relative;
+}
+
+#header {
+    /* display: flex; */
+    text-align: center;
+    margin: 5px auto;
+    padding-top: 2%;
+}
+
+.input{
+    width: 250px;
+    height: 30px;
+    margin: 0px 5px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+select {
+    background-color: rgb(111, 93, 227);
+    width: 120px;
+    height: 30px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 2px;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#select:hover {opacity: 1;}
+
+#add {
+    background-color: rgb(111, 93, 227);
+    width: 120px;
+    height: 30px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 2px;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+    
+#add:hover {opacity: 1}
+
+#main {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.two1 {
+    width: 30%;
+    float: left;
+    text-align: left;
+    padding: 5px 20px;
+    margin: 5px 5px;
+}
+
+.two2 {
+    width: 30%;
+    float: left;
+    text-align: left;
+    padding: 5px 20px;
+    margin: 5px 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 3px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+
+#btnDel {
+    background-color: rgb(111, 93, 227);
+    width: 120px;
+    height: 30px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 2px;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+    
+#btnDel:hover {opacity: 1}
+
+.summa {
+    padding: 3px;
+    display: flex; 
+}
+
+#user {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
+    margin: 0 30px;
+}
+#user_img {
+    width: 30px;
+    height: 30px;
+    margin:  0 10px;
+    background-image: url(./img/user.png);
+    background-size: 30px 30px;
+    
+}
+
+#unlogin {
+    background-color: rgb(111, 93, 227);
+    width: 120px;
+    height: 30px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+    margin: 4px 2px;
+    opacity: 0.8;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#img_p {
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+    background-image: url(./img/plus.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+#img_m {
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+    background-image: url(./img/minus.png);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.full {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.full_plus {
+    width: 30%;
+    color: rgb(26, 165, 26);
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    padding: 6px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 25px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.full_minus {
+    width: 30%;
+    color: rgb(183, 22, 22);
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    padding: 6px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 25px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    
+}
